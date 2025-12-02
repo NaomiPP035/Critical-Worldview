@@ -1,25 +1,23 @@
 body {
     background: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.container {
-    padding: 40px;
-}
-
-h1 {
-    text-align: center;
-    color: #6cf;
+    color: #0a2b1d; /* 暗绿色 */
+    font-family: 'Press Start 2P', monospace;
+    overflow: hidden; /* 不滚动 */
 }
 
 .words {
-    margin-top: 30px;
-    font-size: 1.5em;
-    line-height: 1.4em;
-    padding: 20px;
-    background: #111;
-    border-radius: 8px;
+    position: fixed;
+    inset: 0;                 /* 占满整个屏幕 */
+    display: flex;
+    align-items: center;      /* 垂直居中 */
+    justify-content: center;  /* 水平居中 */
+
+    font-size: 4vw;           /* 自适应大字 */
+    line-height: 1.4;
+    text-align: center;
+    padding: 40px;
+    word-wrap: break-word;
+    text-transform: uppercase; /* 全部大写 */
 }
