@@ -2,7 +2,7 @@ body {
     background: #000;
     margin: 0;
     padding: 0;
-    color: #0a2b1d; /* 暗绿色 */
+    color: rgb(0, 125, 58); /* 暗绿色 */
     font-family: 'Press Start 2P', monospace;
     overflow: hidden; /* 不滚动 */
 }
@@ -14,10 +14,14 @@ body {
     align-items: center;      /* 垂直居中 */
     justify-content: center;  /* 水平居中 */
 
-    font-size: 4vw;           /* 自适应大字 */
+    font-size: 6vw;           /* 自适应大字 */
     line-height: 1.4;
     text-align: center;
     padding: 40px;
     word-wrap: break-word;
     text-transform: uppercase; /* 全部大写 */
+    text-shadow:
+
+        0 0 40px #00ff0052,
+        0 0 80px #00ff004c;
 }
